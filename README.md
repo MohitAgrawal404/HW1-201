@@ -1,23 +1,27 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Jazz23/CSE201-Homeworks-Private)
-
-# The unofficial CSE201 Homeworks repository
-
-This repo is a [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) for all the homeworks. A Dev Container is a one-click solution to getting up and running with the assignments without any setup.
-
 ## Setup
+Hey! Since this is a zip file I will give you two options to run it. 
 
-Click `Use this template -> Create a new repository` to copy this repo to your GitHub account.
+1. Locally:
 
-With the copy, either click the "open with codespaces"([?](https://github.com/features/codespaces)) button above or:
+- You will need to open the entire folder in an application such as VS Code and then click on submission.ipynb. 
+- Then you must select a Python kernel typically from the top right, any should do. 
+- Then you should be able to run the submission.ipynb file. 
+- This should work assuming you have python installed and have had it working in the past however it is hard for me to know what issues your python installation might have as well as what extensions you might need to install which I why I recommend option 2. 
 
-- Install VSCode on your computer, and install the `Dev Containers` extension.
-- If you don't already have docker installed, use the VSCode command pallette to run `Dev Containers: Install Docker`.
-- Then run `Dev Containers: Clone repository in container volume` and paste the URL of this repo.
+2. GitHub Code Spaces (recommended)
+- Go to this link: https://github.com/MohitAgrawal404/HW1-201 
+- At the top right you will see a green button called `Use this template`, click it and then you should see  `Create a new repository` to copy this repo to your GitHub account.
 
-## What's inside
+- Open that newly created repository that is under your account and then click on the green button that says `Code` and then switch to the menu in there that says `codespaces`. 
+- Next to the word codespaces there should be a `+`, click that and then it should open a code space. 
+- Navigate to the file called submission.ipynb. On the top right you should see a button that says `Select Kernel`, Click it. 
+- Now in the popup at the top select `Python Environments...` and then click on the one that says `Python 3.12.8 recommended`. 
+- Now you should be able to run the cells. Make sure you run them in order or else you will get errors.  
 
-I've preconfigured the Dev Container to have python, jupyter notebook, VSCode extensions, all python requirements, and a basic folder structure for future assignments. There is an example notebook already provided for HW1. I will update this template regularly so don't forget to `git pull upstream main` often to get the latest changes. Feel free to submit PRs when new HWs are released or if there are any additions you want to add. I've also preconfigured python debugging to work so please use breakpoints (I made a tutorial video [here](https://www.youtube.com/watch?v=UtBYPD6ljWg)).
+## Instructions
+- Run all of the cells in order and wait for the previous cell to complete running. 
+- When an output is outputted if it says `Output is truncated` at the bottom of that output cell then click on the blue words that say `scrollable element` next to it. 
+- If you do not click that the output will be displayed incorrectly and be missing things. 
 
-> This repo does not contain any useful information that could be used to derive a solution for any of the assignments.
-
-Happy coding!
+## Thank you! 
+- If you have any questions or need help running it feel free to email me at mmagrawa@ucsc.edu or HimohitA@gmail.com if you are using your personal email
